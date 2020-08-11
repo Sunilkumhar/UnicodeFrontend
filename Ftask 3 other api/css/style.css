@@ -116,9 +116,6 @@
  
 }
 
-
-
-
 #stats1 {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -126,6 +123,7 @@
   margin-top: 10px;
   
 }
+#stats1 a{ cursor: pointer;}
 
 #stats1 td, #stats1 th {
   border: 1px solid #ddd;
