@@ -1,4 +1,4 @@
-var sum1=0,sum2=0,sum3=0;sum4=0;
+var sum1=0,sum2=0,sum3=0,sum4=0;
 function namesort(){
     sum1=sum1+1;
     fetch("https://corona.lmao.ninja/v2/countries", {
