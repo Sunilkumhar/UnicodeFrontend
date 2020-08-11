@@ -8,7 +8,7 @@ body {
 }
 
 @keyframes example {
-  0%   {background-color: rgb(233, 241, 200);}
+  0%   {background-color: rgb(252, 239, 221);}
   25%  {background-color: rgb(232, 248, 221);}
   50%  {background-color: rgb(190, 190, 229);}
   100% {background-color: rgb(231, 203, 211);}
@@ -72,11 +72,12 @@ body {
 
 }
 #link {
-  width: 15%;
+  width: 18%;
   margin: 30px;
   height: 25em;
   margin-right: 15px;
   background-color: rgb(185, 245, 158);
+  
 }
 #main_info {
   width: 60%;
