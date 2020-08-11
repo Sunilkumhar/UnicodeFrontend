@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Sunil Kumhar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/home.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allan&family=Marcellus+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <script src="https://kit.fontawesome.com/0ce27392f2.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="myFunction()">
+  <img class="back" src="./images/homeback.jpg" alt="">
+  <div class="topnav">
+    <div class="topnav-left">
+      <a href="./home.html">.SK</a>
+    </div>
+    
+    <div class="topnav-centered" >
+      <h2>SUNIL KUMHAR</h2>
+    </div>
+    
+    <div class="topnav-right">
+      <a href="./profile.html">Profile</a>
+      <a href="#" target="_blank">Resume</a>
+      <a href="./contact.html">Contact</a>
+
+    </div>
+  </div>
+  <div class="container1">
+    <h1 class="display-3 animate__animated animate__fadeInLeft">Hey,</h1>
+    <h1 class="display-4 there animate__animated animate__fadeInLeft animate__delay-1s">There</h1>
+  </div>
+  <div class="container2 animate__animated animate__zoomIn animate__delay-1s">
+    <img src="./images/user (1).png" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> 
+    <h1 class="display-5">SUNIL J. KUMHAR</h1>
+    <h6>B.tech Computer Science(2023)</h6>
+    <div class="button_cont" align="center"><a class="example_d" href="./profile.html" rel="nofollow noopener">Know More</a></div>
+
+  </div>
+
+</body>
+<script >
+function myFunction() {
+  setTimeout(function(){ 
+    document.querySelector('.container1').style.display = "none"
+    document.querySelector('.container2').style.display = "block"
+  }, 2000);
+}
+</script>
+</html>

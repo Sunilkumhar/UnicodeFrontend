@@ -1,0 +1,113 @@
+body {
+  /* width: 100px;
+  height: 100px; */
+  background-color: red;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(233, 241, 200);}
+  25%  {background-color: rgb(232, 248, 221);}
+  50%  {background-color: rgb(190, 190, 229);}
+  100% {background-color: rgb(231, 203, 211);}
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(63, 60, 60);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+  color: black;
+}
+.topnav-left {
+  padding-left: 20px;
+}
+
+.topnav-centered  {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+.columns {
+  display: flex;
+
+}
+#link {
+  width: 15%;
+  margin: 30px;
+  height: 25em;
+  margin-right: 15px;
+  background-color: rgb(185, 245, 158);
+}
+#main_info {
+  width: 60%;
+  margin: 30px;
+  margin-left: 15px;
+  background-color: rgb(158, 231, 236);
+}
+#main_info #Profile {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#main_info #Education {
+  margin-top: 20px;
+  text-align: center;
+}
+#main_info #Education .coll_name{
+  font-size: 20px;
+  font-family: 'Lemonada', cursive;
+}
+#main_info #Education .degree{
+  font-size: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+#main_info #Awards {
+  margin-top: 20px;
+}
+#Skills {
+  width: 25%;
+  margin: 30px;
+  margin-left: 15px;
+  background-color: rgb(185, 245, 158);
+  height: 20em;
+}
