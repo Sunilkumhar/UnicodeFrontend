@@ -146,15 +146,10 @@ function leading(data){
 
 var map;
 var infoWindow;
-let coronaGlobalData;
-let mapCircles = [];
-let coronaHistoricalData;
-let coronaHistoricalCountryData;
 
 var casesTypeColors = {
     cases: '#cc1034',
-    recovered: '#7fd922',
-    deaths: '#fa5575'
+
 }
 const mapCentre = {
     lat: 12.550343,
@@ -212,12 +207,6 @@ const showDataOnMap = (data, casesType="cases") => {
             position: countryCircle.center
         });
 
-        google.maps.event.addListener(countryCircle, 'click', function(countryCircle) {
-            infoWindow.open(map, countryCircle);
-        });
-
-        mapCircles.push(countryCircle);
-
         google.maps.event.addListener(countryCircle, 'mouseover', function() {
             infoWindow.open(map);
         });
@@ -225,10 +214,6 @@ const showDataOnMap = (data, casesType="cases") => {
         google.maps.event.addListener(countryCircle, 'mouseout', function(){
             infoWindow.close();
         })
-
-        google.maps.event.addListener(map, 'click', function() {
-            infoWindow.close();
-        });
 
     })
 
