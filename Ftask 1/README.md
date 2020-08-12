@@ -1,3 +1,3 @@
 # Portfolio
-## Home
-![Alt text](./images/webhome.png?raw=true"Optional title")
+<p align="center">Home</p>
+ <img src="./images/webhome.png">
